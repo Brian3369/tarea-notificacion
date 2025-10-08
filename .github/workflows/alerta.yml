@@ -15,4 +15,4 @@ jobs:
           curl -H "Title: 🚀 Nuevo push en el repositorio" \
                -H "Priority: 3" \
                -d "Se ha subido nuevo código al repositorio en la rama ${{ github.ref_name }} por ${{ github.actor }}" \
-               https://ntfy.sh/devops-it
+               https://ntfy.sh/devops-itla
